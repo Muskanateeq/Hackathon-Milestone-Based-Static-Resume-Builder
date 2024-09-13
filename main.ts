@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+<<<<<<< HEAD
   
   document.addEventListener('DOMContentLoaded', () => {
     const sliders = document.querySelectorAll('input[type="range"]');
@@ -36,3 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
   });
+=======
+  
+>>>>>>> 0f0098906ba3586998ef1cb5a76728c1ab167a1c

@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', function () {
     var sliders = document.querySelectorAll('input[type="range"]');
     var toggleButton = document.getElementById('toggle-skills');
@@ -31,3 +32,5 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+=======
+>>>>>>> 0f0098906ba3586998ef1cb5a76728c1ab167a1c
