@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0e0b3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .resume-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 900px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 14px;
+  }
+  
+  .sidebar {
+    background-color: #2b3748;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+  }
+  
+  .profile-picture img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+  
+  h4 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+  }
+  
+  .profile, .education {
+    margin-bottom: 30px;
+  }
+  
+  .main-content {
+    padding: 40px 20px;
+  }
+  
+  .skills {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-bottom: 30px; /* Ensure there's space below the Skills section */
+  }
+  .experience {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 40px;
+  }
+  .contact {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 40px;
+  }
+  
+  .skills .slider-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .skills label {
+    font-size: 14px;
+  }
+  
+  .skills input[type="range"] {
+    width: 100%;
+  }
+  .education h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+  }
+  
+  .experience h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .experience p {
+    font-size: 14px;
+    color: #4a4a4a;
+  }
+  .contact h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+  }
+  
+  .contact p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #4a4a4a;
+  }
+  
+
+  /* Existing CSS */
+
+.main-content {
+    padding: 40px 20px;
+    position: relative; /* Add relative positioning */
+  }
+  
+  #toggle-skills {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #2b3748;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .toggle-skills:hover {
+    background-color: #1e2a36;
+  }
+  
+  .skills {
+    margin-bottom: 30px; /* Ensure there's space below the Skills section */
+    transition: opacity 0.3s ease; /* Smooth transition for hiding/showing */
+  }
+  
+  /* Add a class for hiding skills */
+  .skills.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .skills-hidden {
+    display: none;
+  }
+  
+  
