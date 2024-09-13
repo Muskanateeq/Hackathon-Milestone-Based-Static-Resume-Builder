@@ -9,9 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(`${inputSlider.id} value: ${inputSlider.value}`);
       });
     });
-  });
-<<<<<<< HEAD
-  
+  })
+
   document.addEventListener('DOMContentLoaded', () => {
     const sliders = document.querySelectorAll('input[type="range"]');
     const toggleButton = document.getElementById('toggle-skills') as HTMLButtonElement;
@@ -36,7 +35,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
     }
-  });
-=======
-  
->>>>>>> 0f0098906ba3586998ef1cb5a76728c1ab167a1c
+  })

@@ -3,14 +3,10 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   body {
     font-family: 'Poppins', sans-serif;
-<<<<<<< HEAD
     background-color: #0e0b3a;
-=======
-    background-color: #f8f8f8;
->>>>>>> 0f0098906ba3586998ef1cb5a76728c1ab167a1c
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,11 +37,7 @@
     height: 120px;
     border-radius: 50%;
     margin-bottom: 20px;
-<<<<<<< HEAD
-    border: 4px solid;
-=======
     border: 4px solid #ffffff;
->>>>>>> 0f0098906ba3586998ef1cb5a76728c1ab167a1c
   }
   
   h2 {
@@ -78,7 +70,6 @@
   }
   
   .skills {
-<<<<<<< HEAD
     margin-top: 50px;
     margin-left: 30px;
     margin-right: 40px;
@@ -94,10 +85,6 @@
     margin-left: 30px;
     margin-right: 40px;
   }
-=======
-    margin-bottom: 30px; /* Ensure there's space below the Skills section */
-  }
->>>>>>> 0f0098906ba3586998ef1cb5a76728c1ab167a1c
   
   .skills .slider-container {
     display: flex;
@@ -145,9 +132,6 @@
     font-size: 14px;
     color: #4a4a4a;
   }
-<<<<<<< HEAD
-  
-
   /* Existing CSS */
 
 .main-content {
@@ -185,7 +169,4 @@
   .skills-hidden {
     display: none;
   }
-  
-=======
->>>>>>> 0f0098906ba3586998ef1cb5a76728c1ab167a1c
   
