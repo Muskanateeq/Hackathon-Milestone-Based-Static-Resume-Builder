@@ -14,6 +14,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var skillsSection = document.querySelector('.skills');
     sliders.forEach(function (slider) {
         var inputSlider = slider;
+        // Ensure the slider is disabled
+        inputSlider.disabled = true;
         inputSlider.addEventListener('input', function () {
             console.log("".concat(inputSlider.id, " value: ").concat(inputSlider.value));
         });
